@@ -87,33 +87,7 @@ strong {
     padding: 20px 0;
     overflow: hidden
 }
-.brand-logo{
-    height: 55px;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-}
-.brand-logo img{
-    width: 135px;
-}
-@media screen and (min-width: 601px) {
-    .brand-logo{
-        height: 64px;
-    }
-    .brand-logo img{
-        width: 145px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .brand-logo img{
-        width: 152px;
-    }
-}
-@media screen and (min-width: 992px) {
-    .brand-logo img{
-        width: 165px;
-    }
-}
+
 .vitrina {
     display: flex;
     flex-wrap: wrap;
