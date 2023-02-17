@@ -110,6 +110,19 @@ strong {
     height: 100%;
 }
 /* HOME */
+/* Main */
+.main p{
+    text-align: justify;
+}
+.main .sections{
+    margin-bottom: 1.5rem;
+}
+.img-shadow{
+    border-radius: 6px;
+box-shadow: 0px 7px 18px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 7px 18px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 18px -3px rgba(0,0,0,0.75);
+}
 /* MARCA */
 .marca{
     display: flex;
@@ -127,9 +140,18 @@ strong {
 }
 .title-h2{
     color: var(--color-fuxia);
+    
 }
 .marca__text{
     width: 100%;
+}
+.marca__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.marca__img img{
+    width: 90%;
 }
 /* QUIENES SOMOS */
 .quienes-somos{
@@ -142,6 +164,14 @@ strong {
     text-align: center;
     width: 100%;
 }
+.quienes-somos__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.quienes-somos__img img{
+    width: 100%;
+}
 .mision{
     display: flex;
     justify-content: space-between;
@@ -152,7 +182,16 @@ strong {
     width: 100%;
     text-align: center;
 }
+.mision__text{
+    text-align: justify;
+}
 .mision__img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.mision__img img{
     width: 100%;
 }
 /* Vision */
@@ -162,11 +201,19 @@ strong {
     align-items: center;
     flex-wrap: wrap;
 }
+.vision__text{
+    text-align: justify;
+}
 .vision .title-h2{
     width: 100%;
     text-align: center;
 }
 .vision__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vision__img img{
     width: 100%;
 }
 /* DONDE CONSGUIR */
@@ -184,6 +231,12 @@ strong {
 }
 @media screen and (min-width:768px) {
     /* MARCA */
+    .title-h2{
+        margin-bottom: 2rem;
+    }
+    .marca{
+        justify-content: space-between;
+    }
     .marca__text{
         width: 60%;
     }
@@ -192,8 +245,6 @@ strong {
     }
     .marca__img img{
         width: 100%;
-        height: 500px;
-        background-color: red;
     }
     .quienes-somos__img{
         width: 100%;
@@ -202,32 +253,48 @@ strong {
         align-items: center;
     }
     .quienes-somos__img img{
-        width: 400px;
-        background: red;
-        height: 400px;
+        width: 75%;
+    }
+    .mision{
+        justify-content: center;
     }
     .mision__img{
-        width: 35%;
-        background: red;
+        width: 75%;
     }
     .mision__img img{
         width: 100%;
-        height: 350px;
     }
     .vision__text{
-        width:55%;
+        width:50%;
     }
     .vision__img{
-        width: 40%;
-        background: red;
+        width: 45%;
     }
     .vision__img img{
         width: 100%;
-        height: 350px;
     }
     .mision__text{
-        width:60%;
+        width:100%;
     }
+}
+@media screen and (min-width: 992px){
+    .marca__img{
+        width: 35%;
+    }
+    .marca__img img{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .marca__img{
+        width: 35%;
+    }
+    .marca__img img{
+        width: 100%;
+    }
+}
+.brand-logo{
+    z-index: 999;
 }
 .br-banner{
     display: none;
@@ -239,8 +306,27 @@ strong {
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
-
+.wave-mobile{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.wave-desktop{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .wave-mobile{
+        display: none;
+    }
+    .wave-desktop{
+        display: initial;
+        position: absolute;
+        width: 100%;
+     bottom: 0;
+    }
+}
 .articulo {
     width: 98%;
     max-width: 680px;
@@ -361,7 +447,6 @@ strong {
 .whatsapp-boton:hover {
     background-color: #cbcd55
 }
-
 .anuncio {
     position: fixed;
     width: 220px;
@@ -375,7 +460,7 @@ strong {
     width: 140px;
     top: 10px;
     margin: 0;
-    animation: anuncio 2s infinite
+    animation: anuncio 2s infinite;
 }
 
 .anuncio .mensaje {
