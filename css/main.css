@@ -2,7 +2,7 @@
     --color-fuxia: #a31f72;
     --color-azul: #496ea9;
     --color-morado: #6b0082;
-    --color-azul-morado: #5d35b0;
+    --color-azul-morado: #5d35b0
 }
 
 html {
@@ -73,7 +73,7 @@ ol {
 }
 
 .active {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, .1)
 }
 
 strong {
@@ -81,9 +81,9 @@ strong {
 }
 
 .lista-enlaces li a {
-    color: white;
+    color: #fff;
     padding: 6px 0;
-    display: flex;
+    display: flex
 }
 
 .envoltorio {
@@ -112,277 +112,268 @@ strong {
 
 .vitrina img {
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
-/* HOME */
-/* Main */
 .main p {
-    text-align: justify;
+    text-align: justify
 }
 
 .main .sections {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem
 }
 
 .img-shadow {
     border-radius: 6px;
-    box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 7px 18px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 7px 18px -3px rgba(0, 0, 0, .75);
+    -webkit-box-shadow: 0 7px 18px -3px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 7px 18px -3px rgba(0, 0, 0, .75)
 }
 
-/* MARCA */
 .marca {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .text {
-    line-height: 2rem;
+    line-height: 2rem
 }
 
 .title-h1 {
     width: 100%;
     color: var(--color-fuxia);
-    text-align: center;
+    text-align: center
 }
 
 .title-h2 {
-    color: var(--color-fuxia);
-
+    color: var(--color-fuxia)
 }
 
 .marca__text {
-    width: 100%;
+    width: 100%
 }
 
 .marca__img {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .marca__img img {
-    width: 90%;
+    width: 90%
 }
 
-/* QUIENES SOMOS */
 .quienes-somos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .quienes-somos .title-h2 {
     text-align: center;
-    width: 100%;
+    width: 100%
 }
 
 .quienes-somos__img {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .quienes-somos__img img {
-    width: 100%;
+    width: 100%
 }
 
 .mision {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .mision .title-h2 {
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .mision__text {
-    text-align: justify;
+    text-align: justify
 }
 
 .mision__img {
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .mision__img img {
-    width: 100%;
+    width: 100%
 }
 
-/* Vision */
 .vision {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .vision__text {
-    text-align: justify;
+    text-align: justify
 }
 
 .vision .title-h2 {
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .vision__img {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .vision__img img {
-    width: 100%;
+    width: 100%
 }
 
-/* DONDE CONSGUIR */
 .donde-conseguir__text {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .donde-conseguir__text .title-h2 {
-    text-align: center;
+    text-align: center
 }
 
 .donde-conseguir img {
     width: 95%;
-    max-width: 500px;
+    max-width: 500px
 }
 
 @media screen and (min-width:768px) {
-
-    /* MARCA */
     .title-h2 {
-        margin-bottom: 2rem;
+        margin-bottom: 2rem
     }
 
     .marca {
-        justify-content: space-between;
+        justify-content: space-between
     }
 
     .marca__text {
-        width: 60%;
+        width: 60%
     }
 
     .marca__img {
-        width: 35%;
+        width: 35%
     }
 
     .marca__img img {
-        width: 100%;
+        width: 100%
     }
 
     .quienes-somos__img {
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center
     }
 
     .quienes-somos__img img {
-        width: 75%;
+        width: 75%
     }
 
     .mision {
-        justify-content: center;
+        justify-content: center
     }
 
     .mision__img {
-        width: 75%;
+        width: 75%
     }
 
     .mision__img img {
-        width: 100%;
+        width: 100%
     }
 
     .vision__text {
-        width: 50%;
+        width: 50%
     }
 
     .vision__img {
-        width: 45%;
+        width: 45%
     }
 
     .vision__img img {
-        width: 100%;
+        width: 100%
     }
 
     .mision__text {
-        width: 100%;
+        width: 100%
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width:992px) {
     .marca__img {
-        width: 35%;
+        width: 35%
     }
 
     .marca__img img {
-        width: 100%;
+        width: 100%
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width:1200px) {
     .marca__img {
-        width: 35%;
+        width: 35%
     }
 
     .marca__img img {
-        width: 100%;
+        width: 100%
     }
 }
 
 .brand-logo {
-    z-index: 999;
+    z-index: 999
 }
 
 .br-banner {
-    display: none;
+    display: none
 }
 
 .banner-inicio {
-    height: 200px;
+    height: 280px;
     overflow: hidden;
     background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative
 }
 
 .wave-mobile {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0
 }
 
 .wave-desktop {
-    display: none;
+    display: none
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     .wave-mobile {
-        display: none;
+        display: none
     }
 
     .wave-desktop {
         display: initial;
         position: absolute;
         width: 100%;
-        bottom: 0;
+        bottom: 0
     }
 }
 
@@ -456,7 +447,7 @@ strong {
     background-color: red;
     width: auto;
     height: auto;
-    line-height: 32px;
+    line-height: 32px
 }
 
 .navegacion-interna a {
@@ -465,23 +456,23 @@ strong {
 
 .navegacion-interna a:active,
 .navegacion-interna a:hover {
-    color: #3485f7;
+    color: #3485f7
 }
 
 .navegacion-interna a::after {
     content: "/";
     margin: 0 5px;
-    color: #b1adad;
+    color: #b1adad
 }
 
 .navegacion-interna strong {
     font-weight: 400;
     color: #868686;
-    cursor: default;
+    cursor: default
 }
 
 .whatsapp-numero {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .whatsapp-boton {
@@ -520,7 +511,7 @@ strong {
     width: 140px;
     top: 10px;
     margin: 0;
-    animation: anuncio 2s infinite;
+    animation: anuncio 2s infinite
 }
 
 .anuncio .mensaje {
@@ -655,7 +646,7 @@ h2.precios-antibioticos {
     }
 
     .br-banner {
-        display: none;
+        display: none
     }
 
     .banner-inicio {
@@ -664,13 +655,13 @@ h2.precios-antibioticos {
         background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
         background-position: center;
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     .br-banner {
-        display: none;
+        display: none
     }
 
     .banner-inicio {
@@ -679,7 +670,7 @@ h2.precios-antibioticos {
         background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
         background-position: center;
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat
     }
 }
 
@@ -690,7 +681,7 @@ h2.precios-antibioticos {
         background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
         background-position: center;
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat
     }
 }
 
@@ -701,6 +692,6 @@ h2.precios-antibioticos {
         background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
         background-position: center;
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat
     }
 }
