@@ -1,0 +1,582 @@
+:root{
+    --color-fuxia: #a31f72;
+    --color-azul: #496ea9;
+    --color-morado: #6b0082;
+    --color-azul-morado: #5d35b0;
+}
+html {
+    scroll-behavior: smooth
+}
+
+ol {
+    padding: 0
+}
+
+.tabs .tab a {
+    color: #794dd3
+}
+
+.tabs .tab a:hover {
+    background-color: rgba(94, 53, 177, .1);
+    color: #5e35b1
+}
+
+.tabs .tab a.active,
+.tabs .tab a.active:focus {
+    background-color: rgba(94, 53, 177, .3);
+    color: #5e35b1
+}
+
+.tabs .indicator {
+    background-color: #5e35b1
+}
+
+.mt-1 {
+    margin-top: 1rem
+}
+
+.mt-2 {
+    margin-top: 2rem
+}
+
+.mt-3 {
+    margin-top: 3rem
+}
+
+.mt-4 {
+    margin-top: 4rem
+}
+
+.mt-5 {
+    margin-top: 5rem
+}
+
+.mb-1 {
+    margin-bottom: 1rem
+}
+
+.mb-2 {
+    margin-bottom: 2rem
+}
+
+.mb-3 {
+    margin-bottom: 3rem
+}
+
+.mb-4 {
+    margin-bottom: 4rem
+}
+
+.mb-5 {
+    margin-bottom: 5rem
+}
+.active{
+    background: rgba(0,0,0,0.1);
+}
+strong {
+    font-weight: 700
+}
+.lista-enlaces li a{
+    color: white;
+    padding: 6px 0;
+    display: flex;
+}
+.envoltorio {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden
+}
+.brand-logo{
+    height: 55px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.brand-logo img{
+    width: 135px;
+}
+@media screen and (min-width: 601px) {
+    .brand-logo{
+        height: 64px;
+    }
+    .brand-logo img{
+        width: 145px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .brand-logo img{
+        width: 152px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .brand-logo img{
+        width: 165px;
+    }
+}
+.vitrina {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px
+}
+
+.vitrina>div {
+    width: 50%
+}
+
+.vitrina>.texto {
+    align-self: center;
+    padding: 0 10px;
+    text-align: center
+}
+
+.vitrina img {
+    width: 100%;
+    height: 100%;
+}
+/* HOME */
+/* MARCA */
+.marca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    line-height: 2rem;
+}
+.title-h1{
+    width: 100%;
+    color: var(--color-fuxia);
+    text-align: center;
+}
+.title-h2{
+    color: var(--color-fuxia);
+}
+.marca__text{
+    width: 100%;
+}
+/* QUIENES SOMOS */
+.quienes-somos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quienes-somos .title-h2{
+    text-align: center;
+    width: 100%;
+}
+.mision{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mision .title-h2{
+    width: 100%;
+    text-align: center;
+}
+.mision__img{
+    width: 100%;
+}
+/* Vision */
+.vision{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.vision .title-h2{
+    width: 100%;
+    text-align: center;
+}
+.vision__img{
+    width: 100%;
+}
+/* DONDE CONSGUIR */
+.donde-conseguir__text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.donde-conseguir__text .title-h2{
+    text-align: center;
+}
+.donde-conseguir img{
+    width: 95%;
+    max-width: 500px;
+}
+@media screen and (min-width:768px) {
+    /* MARCA */
+    .marca__text{
+        width: 60%;
+    }
+    .marca__img{
+        width: 35%;
+    }
+    .marca__img img{
+        width: 100%;
+        height: 500px;
+        background-color: red;
+    }
+    .quienes-somos__img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .quienes-somos__img img{
+        width: 400px;
+        background: red;
+        height: 400px;
+    }
+    .mision__img{
+        width: 35%;
+        background: red;
+    }
+    .mision__img img{
+        width: 100%;
+        height: 350px;
+    }
+    .vision__text{
+        width:55%;
+    }
+    .vision__img{
+        width: 40%;
+        background: red;
+    }
+    .vision__img img{
+        width: 100%;
+        height: 350px;
+    }
+    .mision__text{
+        width:60%;
+    }
+}
+.br-banner{
+    display: none;
+}
+.banner-inicio {
+    height: 200px;
+    overflow: hidden;
+    background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.articulo {
+    width: 98%;
+    max-width: 680px;
+    margin: 0 auto
+}
+
+.articulo h1 {
+    font-size: 45px
+}
+
+.articulo h2 {
+    font-size: 38px
+}
+
+.articulo h3 {
+    font-size: 32px
+}
+
+.articulo h4 {
+    font-size: 27px
+}
+
+.articulo p,
+.articulo span {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 16px
+}
+
+.articulo ul {
+    padding: 15px;
+    background: #753fd7;
+    color: deep-purple;
+    border-radius: 7px
+}
+
+.articulo ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a880f1;
+    color: #f6f2ff
+}
+
+.venta-ciudades li {
+    list-style: none
+}
+
+.venta-ciudades a {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    background: #f5f5f5;
+    margin-bottom: 10px
+}
+
+.venta-ciudades a:active,
+.venta-ciudades a:focus,
+.venta-ciudades a:hover {
+    background: #dddd
+}
+
+.navegacion-interna {
+    margin-top: 20px;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 12px 10px;
+    font-size: 18px;
+    background-color: red;
+    width: auto;
+    height: auto;
+    line-height: 32px;
+}
+
+.navegacion-interna a {
+    color: #000
+}
+
+.navegacion-interna a:active,
+.navegacion-interna a:hover {
+    color: #3485f7;
+}
+
+.navegacion-interna a::after {
+    content: "/";
+    margin: 0 5px;
+    color: #b1adad;
+}
+
+.navegacion-interna strong {
+    font-weight: 400;
+    color: #868686;
+    cursor: default;
+}
+
+.whatsapp-numero {
+    margin-top: 20px;
+}
+
+.whatsapp-boton {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    background-color: #5d35b0;
+    bottom: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 0 0 0 0 #e7a44c;
+    animation: pulse-lip 2s infinite
+}
+
+.whatsapp-boton img {
+    width: 100%;
+    height: 100%
+}
+
+.whatsapp-boton:active,
+.whatsapp-boton:hover {
+    background-color: #cbcd55
+}
+
+.anuncio {
+    position: fixed;
+    width: 220px;
+    right: 100px;
+    bottom: 30px;
+    text-align: center
+}
+
+.anuncio img {
+    position: relative;
+    width: 140px;
+    top: 10px;
+    margin: 0;
+    animation: anuncio 2s infinite
+}
+
+.anuncio .mensaje {
+    position: relative;
+    background-color: #5d35b0;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    z-index: 3;
+    animation: anuncio 2s infinite
+}
+
+h2.precios-antibioticos {
+    font-size: 1.4rem;
+    margin: 1rem 0
+}
+
+.lista-precios {
+    box-shadow: 0 4px 10px -5px #aaa
+}
+
+.lista-precios td,
+.lista-precios th {
+    text-align: center
+}
+
+.lista-precios td {
+    padding: 0
+}
+
+.lista-precios a {
+    display: block;
+    line-height: 3.3rem;
+    color: tomato;
+    text-decoration: underline
+}
+
+.lista-precios tr:active,
+.lista-precios tr:hover {
+    background-color: rgba(94, 53, 177, .1)
+}
+
+.lista-precios tr:first-child:active,
+.lista-precios tr:first-child:hover {
+    background-color: #fff
+}
+
+.lista-precios a:active,
+.lista-precios a:hover {
+    background: tomato;
+    color: #fff
+}
+
+@keyframes anuncio {
+    0% {
+        transform: scale(.95)
+    }
+
+    70% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(.95)
+    }
+}
+
+@keyframes pulse-lip {
+    0% {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 rgba(231, 164, 76, .7)
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(231, 164, 76, 0)
+    }
+
+    100% {
+        transform: scale(.95);
+        box-shadow: 0 0 0 0 rgba(231, 164, 76, 0)
+    }
+}
+
+.anchor-text {
+    padding: 0 !important
+}
+
+.anchor-text * {
+    background-color: transparent;
+    border: none !important
+}
+
+.anchor-text .collapsible-body {
+    border-top: 1px solid #fff;
+    padding: 15px
+}
+
+.anchor-text .collapsible-body a {
+    display: block;
+    margin-bottom: .7rem;
+    color: #fff
+}
+
+.anchor-text .collapsible-body a::before {
+    content: "";
+    display: inline-block;
+    margin-right: .5rem;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+.anchor-text .collapsible-body a:active,
+.anchor-text .collapsible-body a:focus,
+.anchor-text .collapsible-body a:hover {
+    text-decoration: underline
+}
+
+@media only screen and (max-width:700px) {
+    .vitrina>div {
+        width: 100%
+    }
+}
+
+@media (min-width:701px) and (max-width:1900px) {
+    .vitrina>div {
+        width: 50%
+    }
+
+    .br-banner{
+        display: none;
+    }
+    .banner-inicio {
+        height: 425px;
+        overflow: hidden;
+        background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width: 768px){
+    .br-banner{
+        display: none;
+    }
+    .banner-inicio {
+        height: 450px;
+        overflow: hidden;
+        background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width:992px) {
+    .banner-inicio {
+        height: 500px;
+        overflow: hidden;
+        background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-width:1200px) {
+    .banner-inicio {
+        height: 550px;
+        overflow: hidden;
+        background-image: url(../img/inicio/pastilla-abortiva-peru-atraso-menstrual-sobreellas.webp);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {    
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:  linear-gradient(rgba(102, 153, 204, 0.3), rgba(102, 153, 204, 0.3)), url("girl.jpg");  
+    background-color: rgb(102, 153, 204);  
+    background-position:left;  
+    background-repeat: no-repeat; 
+    background-size: cover;  
+}
+.contenedor {
+    width: 96%;
+    margin: 0 auto;
+}   
+.seccion-email {
+    width: 100%;
+    min-height: 100vh;   
+}
+.seccion-email h2 {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.formulario {
+    width: 100%;
+    max-width: 480px;
+    display: block;  
+    margin: 0 auto; 
+    background-color: rgba(94, 53, 177, 0.8);
+}
+.formulario form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;        
+}
+.formulario form > * {
+    display: block;
+}
+.formulario label {
+    font-size: 1.4rem;
+    padding: .4rem;
+    color: white;
+    font-weight: 700; 
+}
+.formulario input, .formulario form textarea {
+    width: 100%;
+    padding: .4rem;
+    margin-bottom: 1rem;
+    font: inherit;
+    border: 3px solid transparent;
+}
+.formulario form textarea { 
+    min-height: 200px;
+}
+.formulario input[type="text"]:focus, .formulario input[type="number"]:focus {
+    border-color: #8450eb;
+}
+.formulario input[type="button"] {
+    margin-top: 2rem;
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.formulario input[type="button"]:hover,
+.formulario input[type="button"]:active {
+    background-color: rgb(255, 173, 80);
+}
+ 
+@media screen and (max-width: 860px) {
+    body {
+        background-position: 20%;
+    }
+    .seccion-email {
+        background-size: 96%;
+        background-position: 2%;
+    }
+    .seccion-email h2 {
+        font-size: 1.8rem;
+    } 
+}
